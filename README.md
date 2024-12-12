@@ -1,0 +1,2 @@
+# telegraph-image-contentType-proxy
+使用telegraph-image图床的url链接时可以在新标签页打开图片而不是下载图片
