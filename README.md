@@ -29,7 +29,7 @@
    - 进入 "Workers 和 Pages" 部分并创建一个新的 Worker。
    - 将本仓库中的 `index.js` 脚本复制并粘贴到 Cloudflare 的 Worker 编辑器中并点击部署。
 2. **配置 Worker 路由**：
-   - 设置 Worker 的路由，例如 `https://images.example.com/*` 来处理所有图片请求。
+   - 设置 Worker 的路由，把你的telegraph-image网址以通配符方式输入，例如 `https://images.example.com/*` 来处理所有图片请求。
     ![image](https://github.com/user-attachments/assets/e0f9ba36-ad3c-4234-a52b-f7935fc66ad7)
     ![image](https://github.com/user-attachments/assets/e4694ad1-423c-4dba-9a16-cb1048f81077)
 
