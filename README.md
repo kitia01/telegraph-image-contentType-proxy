@@ -21,7 +21,9 @@
 ## 前提条件
 
 要使用此 Worker，您需要：
+- 一个 你的域名。
 - 一个 Cloudflare 账户。
+- Cloudflare已经代理了你的域名。
 - 一个已设置好的 Cloudflare Worker（[如何设置 Cloudflare Worker](https://developers.cloudflare.com/workers/)）。
 
 1. **在 Cloudflare 上设置 Worker**：
