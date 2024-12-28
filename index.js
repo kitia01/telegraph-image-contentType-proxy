@@ -11,7 +11,7 @@ async function handleRequest(request) {
 
   // 如果获取的响应无效，则直接返回
   if (!response.ok) {
-    return response
+    return new Response('Failed to fetch the resource.', { status: 500 });
   }
 
   // 创建新的响应，保留原始响应体
@@ -29,6 +29,8 @@ async function handleRequest(request) {
     contentType = 'image/webp'
   } else if (fileExtension === 'svg') {
     contentType = 'image/svg+xml'
+  } else if (fileExtension === 'webm') {
+    contentType = 'video/webm'
   }
 
   // 修改 Content-Type 和 Content-Disposition
