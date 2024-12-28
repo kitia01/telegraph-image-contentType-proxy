@@ -1,5 +1,7 @@
 # telegraph-image-contentType-proxy
 
+# 2024.12.28更新：增加对svg格式的支持
+
 使用telegraph-image图床的url链接时可以在新标签页打开图片而不是下载图片
 
 本仓库包含一个 Cloudflare Worker 脚本，用于动态设置文件的 `Content-Type` 和 `Content-Disposition` 响应头，确保图片文件在浏览器中显示而不是被下载。该脚本还会在文件类型不是图片时保留原始的 `Content-Type`。
