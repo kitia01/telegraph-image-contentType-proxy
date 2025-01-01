@@ -41,7 +41,7 @@
 
 Star 数对开源项目至关重要，您的支持将激励我开发更多有趣的工具和功能！
 
-[点击这里给项目 Star](https://github.com/your-repo-name/telegraph-image-contentType-proxy) ⭐️
+[点击这里给项目 Star](https://github.com/kitia01/telegraph-image-contentType-proxy) ⭐️
 
 ## 更新日志
 
